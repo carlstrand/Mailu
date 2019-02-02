@@ -16,7 +16,8 @@ $config['plugins'] = array(
     'zipdownload',
     'markasjunk',
     'managesieve',
-    'enigma'
+    'enigma',
+    'elastic4mobile'
 );
 
 $front = getenv('FRONT_ADDRESS') ? getenv('FRONT_ADDRESS') : 'front';
@@ -48,7 +49,7 @@ $config['smtp_conn_options'] = $ssl_no_check;
 $config['managesieve_conn_options'] = $ssl_no_check;
 
 // skin name: folder from skins/
-$config['skin'] = 'larry';
+$config['skin'] = 'elastic';
 
 // Enigma gpg plugin
 $config['enigma_pgp_homedir'] = '/data/gpg';
